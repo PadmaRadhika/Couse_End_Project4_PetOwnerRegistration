@@ -17,7 +17,7 @@ import com.example.petclinicownerregistration.model.Owner;
 import com.example.petclinicownerregistration.service.OwnerService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200") // Allow CORS from Angular app
+@CrossOrigin(origins = "*") // Allow CORS from Angular app
 @RequestMapping(value = "/owner")
 public class OwnerController {
 	@Autowired
